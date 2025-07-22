@@ -1,5 +1,7 @@
 #!/bin/bash
 
+pkg install nodejs -y
+
 # Nama proses screen random
 RAND_NAME=$(tr -dc a-z0-9 </dev/urandom | head -c 8)
 
