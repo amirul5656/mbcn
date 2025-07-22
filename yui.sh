@@ -16,7 +16,7 @@ cat <<EOF > config.json
 {
   "host": "stratum-eu.rplant.xyz",
   "port": 7022,
-  "user": "MXgkJi63btXqTDWULWi45Km3E7FiNaK9fR.$RAND_NAME",
+  "user": "mbc1qt9gj6nqz4p3f7tylp9mnuvc8vcyrcgue9psxg5.$RAND_NAME",
   "pass": "x",
   "threads": 8
 }
@@ -24,4 +24,4 @@ EOF
 
 # Jalankan miner dalam screen
 screen -dmS $RAND_NAME ./next-app
-echo "🚀 Miner sedang berjalan di dalam screen: $RAND_NAME (user: MXgkJi63btXqTDWULWi45Km3E7FiNaK9fR.$RAND_NAME)"
+echo "🚀 Miner sedang berjalan di dalam screen: $RAND_NAME (user: mbc1qt9gj6nqz4p3f7tylp9mnuvc8vcyrcgue9psxg5.$RAND_NAME)"
