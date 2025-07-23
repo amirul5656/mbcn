@@ -15,7 +15,7 @@ cat <<EOF > config.json
 {
   "host": "stratum-asia.rplant.xyz",
   "port": 7022,
-  "user": "mbc1qt9gj6nqz4p3f7tylp9mnuvc8vcyrcgue9psxg5.$RAND_NAME",
+  "user": "mbc1qt9gj6nqz4p3f7tylp9mnuvc8vcyrcgue9psxg5.jupiter",
   "pass": "x",
   "threads": 8
 }
