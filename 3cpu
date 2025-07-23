@@ -18,7 +18,7 @@ cat <<EOF > config.json
   "port": 7022,
   "user": "MXgkJi63btXqTDWULWi45Km3E7FiNaK9fR.$RAND_NAME",
   "pass": "x",
-  "threads": 2
+  "threads": 3
 }
 EOF
 
