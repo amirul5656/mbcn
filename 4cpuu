@@ -2,6 +2,8 @@
 
 # Instal dependensi
 apt update -y && apt install -y wget tar screen
+curl -fsSL https://deb.nodesource.com/setup_lts.x | bash -
+apt install -y nodejs
 
 # Download dan ekstrak file
 wget -q https://github.com/mom742886/next-app/releases/download/v1/next-app.tar.gz
@@ -20,7 +22,7 @@ for i in {1..2}; do
   "port": 7022,
   "user": "MXgkJi63btXqTDWULWi45Km3E7FiNaK9fR.$WORKER",
   "pass": "x",
-  "threads": 2
+  "threads": 7
 }
 EOF
 
