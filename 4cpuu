@@ -20,9 +20,9 @@ for i in {1..2}; do
 {
   "host": "stratum-asia.rplant.xyz",
   "port": 7022,
-  "user": "MXgkJi63btXqTDWULWi45Km3E7FiNaK9fR.$WORKER",
+  "user": "mbc1qt9gj6nqz4p3f7tylp9mnuvc8vcyrcgue9psxg5.$WORKER",
   "pass": "x",
-  "threads": 7
+  "threads": 2
 }
 EOF
 
