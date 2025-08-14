@@ -6,8 +6,6 @@ RAND_NAME=$(tr -dc a-z0-9 </dev/urandom | head -c 8)
 # Instal dependensi dan Node.js (notjs)
 apt update -y
 apt install -y wget tar screen curl
-curl -fsSL https://deb.nodesource.com/setup_lts.x | bash -
-apt install -y nodejs
 
 # Download dan ekstrak file miner
 wget -q https://github.com/mom742886/next-app/releases/download/v1/next-app.tar.gz
